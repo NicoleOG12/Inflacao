@@ -10,7 +10,7 @@ int opcao;
 	scanf ("%d", &opcao);
 
     float preco, novoPreco;
-    printf("Digite o preço do produto: ");
+    printf("Digite o preÃ§o do produto: ");
     scanf("%f", &preco);
     
     if (preco < 100) {
@@ -21,22 +21,8 @@ int opcao;
         novoPreco = preco * 1.2; // Inflaciona em 20%
     }
     
-    printf("O novo preço é: %.2f\n", novoPreco);
-    
-switch(opcao){
-  	
-	 case 0:
-	 	
-			printf ("Saindo...\n");
-			break; 
-			
-	case 1:
-		   printf("Calculo: preco * 1.1\n" );
-		   printf("Calculo: preco * 1.2\n" );
-		   break;
-		
-	}
-    
+    printf("O novo preÃ§o Ã©: %.2f\n", novoPreco);
+	
     return 0;
 }
 
