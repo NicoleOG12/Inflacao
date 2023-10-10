@@ -16,7 +16,6 @@ int opcao;
     if (preco < 100) {
         novoPreco = preco * 1.1; // Inflaciona em 10%
     } 
-	
 	else {
         novoPreco = preco * 1.2; // Inflaciona em 20%
     }
